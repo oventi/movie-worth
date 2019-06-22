@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "nodemon --require esm index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "microdata-node": "^1.0.0",
+    "nodemon": "^1.19.1",
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.27"
+  }
+}

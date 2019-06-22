@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Is a movie worth watching?</title>
+        <link rel="stylesheet" href="/danta-20190622/danta.min.css" type="text/css">
+        <link rel="stylesheet" href="app.css" type="text/css">
+        <script src="/danta-20190622/danta.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Is a movie worth watching?</h1>
+        </header>
+
+        <section>
+            <div>
+                <div id="film" data-widget="Textbox" data-label="Which movie do you want to watch?"></div>
+                <div id="search_results" data-widget="List"></div>
+
+                <div id="msg" data-widget="Alert"></div>
+
+                <div id="view" data-widget="View">
+                    <div class="container">
+                        <img id="poster_image" src="" />
+                        <table>
+                            <tr>
+                                <td><h2 id="title"></h2></td>
+                                <td><div class="rating"><span id="rating"></span>/10</div></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" id="description"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+        &copy; 2014. <a href="http://oventi.org">oventi</a>. All rights reserved.<br />
+        Powered by <a href="http://www.imdb.com/">IMDb</a> and <a href="http://www.metacritic.com/">Metacritic</a>.
+        </footer>
+    </body>
+</html>

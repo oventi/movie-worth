@@ -1,0 +1,95 @@
+section {
+    background: transparent !important;
+}
+section > div {
+    border: 0;
+}
+
+footer {
+    height: 63px;
+}
+
+#film {}
+#film input { width: 100%; }
+
+#film .progress {
+    top: 7px;
+    right: 7px;
+}
+
+#search_results, #search_results ul { margin-bottom: 0; }
+#search_results ul li {}
+#search_results ul li:hover { background: #eee; }
+
+#msg { margin-top: 1%; }
+#msg .alert {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#msg .alert-info {
+    background: #000;
+    color: #fff;
+    border: 0 !important;
+}
+
+/* view style */
+
+#view {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-height: 20px;
+}
+#view .progress { right: 50%; }
+#poster_image {
+    float: left;
+    margin-right: 10px;
+    max-width: 214px;
+    width: 50%;
+}
+#view h2 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.rating {
+    background: #FFD700;
+    color: #000;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    float: right;
+    margin-top: 0;
+}
+#description {
+    padding-top: 10px;
+}
+
+/* ************************************************************************** */
+
+p {
+    font-size: 13px !important;
+}
+
+p#source {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+/* ************************************************************************** */
+
+/* Extra small devices */
+@media (max-width: 767px) {
+}
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Large devices */
+@media (min-width: 1200px) {
+}
